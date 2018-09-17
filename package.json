@@ -18,5 +18,8 @@
   "homepage": "https://github.com/CarlosDanielPG/testing_cloud_functions#readme",
   "dependencies": {
     "firebase-tools": "^4.2.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.3"
   }
 }

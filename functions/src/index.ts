@@ -1,6 +1,7 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin'
 admin.initializeApp()
+const db = admin.firestore()
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
 
@@ -10,14 +11,15 @@ admin.initializeApp()
   })*/
 
 export const getUsers = functions.https.onRequest((request, response) => {
-  admin.firestore().doc('users/ikxJnCKQ9eDzyInnQSlg')
-    .get()
-    .then(doc => {
-      const users = doc.data()
+  db.collection("users").get()
+    .then(snap => {
+      let users = Array();
+      snap.forEach(doc => {
+        users.push(doc.data())
+      })
       response.send(users)
     })
     .catch(error => {
-      // Handle the error
       console.log(error)
       response.status(500).send(error)
     })

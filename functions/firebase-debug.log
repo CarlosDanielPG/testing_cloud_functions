@@ -1,27 +1,27 @@
-[debug] [2018-09-17T00:13:40.601Z] ----------------------------------------------------------------------
-[debug] [2018-09-17T00:13:40.603Z] Command:       /home/carlos/.nvm/versions/node/v9.11.1/bin/node /home/carlos/.nvm/versions/node/v9.11.1/bin/firebase serve --only functions
-[debug] [2018-09-17T00:13:40.603Z] CLI Version:   4.2.1
-[debug] [2018-09-17T00:13:40.603Z] Platform:      linux
-[debug] [2018-09-17T00:13:40.603Z] Node Version:  v9.11.1
-[debug] [2018-09-17T00:13:40.603Z] Time:          Sun Sep 16 2018 19:13:40 GMT-0500 (CDT)
-[debug] [2018-09-17T00:13:40.604Z] ----------------------------------------------------------------------
+[debug] [2018-09-17T03:19:23.992Z] ----------------------------------------------------------------------
+[debug] [2018-09-17T03:19:23.994Z] Command:       /home/carlos/.nvm/versions/node/v9.11.1/bin/node /home/carlos/.nvm/versions/node/v9.11.1/bin/firebase serve --only functions
+[debug] [2018-09-17T03:19:23.994Z] CLI Version:   4.2.1
+[debug] [2018-09-17T03:19:23.994Z] Platform:      linux
+[debug] [2018-09-17T03:19:23.994Z] Node Version:  v9.11.1
+[debug] [2018-09-17T03:19:23.994Z] Time:          Sun Sep 16 2018 22:19:23 GMT-0500 (CDT)
+[debug] [2018-09-17T03:19:23.994Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-09-17T00:13:40.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-09-17T00:13:40.610Z] > authorizing via signed-in user
-[debug] [2018-09-17T00:13:40.612Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-proyect-bcf41  
+[debug] [2018-09-17T03:19:24.001Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-17T03:19:24.002Z] > authorizing via signed-in user
+[debug] [2018-09-17T03:19:24.003Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/test-proyect-bcf41  
  
-[debug] [2018-09-17T00:13:41.047Z] <<< HTTP RESPONSE 200
-[debug] [2018-09-17T00:13:41.051Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-proyect-bcf41  
+[debug] [2018-09-17T03:19:24.733Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-17T03:19:24.737Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/test-proyect-bcf41  
  
-[debug] [2018-09-17T00:13:41.784Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-17T03:19:25.229Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/home/carlos/Documentos/Cursos/Firebase Cloud Functions'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2018-09-17T00:13:42.397Z] Fetching environment
-[debug] [2018-09-17T00:13:42.403Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/166515079127:getServerAppConfig  
+[debug] [2018-09-17T03:19:25.871Z] Fetching environment
+[debug] [2018-09-17T03:19:25.873Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/166515079127:getServerAppConfig  
  
-[debug] [2018-09-17T00:13:42.586Z] <<< HTTP RESPONSE 200
-[debug] [2018-09-17T00:13:42.588Z] Starting @google-cloud/functions-emulator
-[debug] [2018-09-17T00:13:44.234Z] Parsing function triggers
+[debug] [2018-09-17T03:19:26.258Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-17T03:19:26.260Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-17T03:19:27.903Z] Parsing function triggers
 [info] ✔  functions: getUsers: http://localhost:5000/test-proyect-bcf41/us-central1/getUsers
