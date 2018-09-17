@@ -1,0 +1,22 @@
+{
+  "name": "firebase-cloud-functions",
+  "version": "1.0.0",
+  "description": "Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosDanielPG/testing_cloud_functions.git"
+  },
+  "author": "Carlos Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosDanielPG/testing_cloud_functions/issues"
+  },
+  "homepage": "https://github.com/CarlosDanielPG/testing_cloud_functions#readme",
+  "dependencies": {
+    "firebase-tools": "^4.2.1"
+  }
+}
